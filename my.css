@@ -1,0 +1,414 @@
+
+    body{
+        background: radial-gradient( rgb(19, 30, 37) 24.5%, rgb(19, 30, 37) 66%);
+    margin:0;
+    }
+        
+.center {
+    margin-left: 100px;
+    margin-right: auto;
+    margin-top: 2%;
+    margin-bottom: 15%;
+    border:10% ;
+    border:5px transparent;
+    border-radius: 5%;
+position: fixed;
+    
+    color: yellow;
+    }
+.idiot{
+    text-align: center;
+    margin-top: 200px;
+    margin-left: 700px;
+    font-size: 100;
+    color: rgb(218, 154, 36);
+    position: fixed;
+    font-family: serif;
+
+    }
+    .mental{
+        text-align: center;
+    margin-top: 250px;
+    margin-left: 720px;
+    font-size: 24;
+    color:aliceblue;
+    line-height: 0.2;
+    position: fixed;
+    font-family: serif;
+}
+.loosu{
+    line-height: 15px;
+    text-align: center;
+margin-top: 350px;
+margin-left: 700px;
+font-size: 20;
+color:aliceblue;
+text-align: justify;
+position:fixed;
+font-family: serif;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+
+
+.active {
+    background-color: rgb(218, 154, 36);
+}
+.hey{
+    margin-top: 500px;
+margin-left: 700px;
+font-size: 20;
+color:aliceblue;
+border-radius: 50%;
+height: 50%;
+width: 50%;
+font-family: serif;
+position: fixed;
+
+}
+.res{
+    text-align: center;
+    color: antiquewhite;
+    margin-top: 10px;
+    margin-left: 450px;
+    font-size: 50;
+    position: sticky;
+    font-family: serif;
+}
+.myself{
+    color: antiquewhite;
+    margin-left:-20%;
+    font-size: 20;
+    line-height: 2;
+    margin-top: 100px;
+    position: sticky;
+    text-align: justify;
+    font-family: serif;
+}
+.myself2{
+    color: antiquewhite;
+    margin-left: 6%;
+    font-size: 20;
+    line-height: 2;
+    margin-top: -215px;
+    position: sticky;
+    text-align: justify;
+    font-family: serif;
+}
+
+
+
+.title-bg {
+    font-size: 110px;
+    left: 0;
+    letter-spacing: 10px;
+    line-height: 0.7;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    text-transform: uppercase;
+    font-weight: 800;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+    color: rgba(255, 255, 255, 0.159);
+    margin-top: -260;
+    margin-left: 480;
+    position: fixed;
+    font-family: serif;
+}
+.about{
+    margin-left: 600px;
+    margin-top: 20px;
+    font-size: 30;
+    font-family: serif;
+    color: antiquewhite;
+
+}
+
+.download-res{
+    margin-top: 80px;
+    margin-left: -1350px;
+    font-size: 28px;
+    border-radius: 5%;
+    font-family: serif;
+    color:yellow ;
+
+}
+html{
+    scroll-behavior: smooth;
+}
+h1 {
+    text-align: center;
+}
+
+/* Create a container using CSS properties */
+.container {
+    top: 30%;
+    left: 50%;
+    position: absolute;
+    text-align: center;
+    transform: translate(-50%, -50%);
+}
+.container2 {
+    top: 30%;
+    left: 50%;
+    position: absolute;
+    text-align: center;
+    transform: translate(-50%, -50%);
+}
+
+h1 {
+    text-align: center;
+}
+
+/* Create a container using CSS properties */
+.container {
+    top: 30%;
+    left: 50%;
+    position: absolute;
+    text-align: center;
+    transform: translate(-50%, -50%);
+}
+
+/* Apply CSS properties to ui-widgets class */
+.ui-widgets {
+    position: relative;
+    display: inline-block;
+    width: 10rem;
+    height: 10rem;
+    border-radius: 9rem;
+    margin: 1.5rem;
+    border: 1.2rem solid palegreen;
+    box-shadow: inset 0 0 7px grey;
+    border-left-color: rgb(218, 154, 36);
+    border-top-color: white;
+    border-right-color: rgb(218, 154, 36);
+    border-bottom-color: white;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+/*  Apply css properties to the second 
+    child of ui-widgets class */
+.ui-widgets:nth-child(2) {
+    border-top-color: white;
+    border-right-color: rgb(218, 154, 36);
+    border-left-color: rgb(218, 154, 36);
+    border-bottom-color: white;
+}
+
+/*  Apply css properties to ui-widgets class 
+    and ui-values class*/
+.ui-widgets .ui-values {
+    top: 40px;
+    position: absolute;
+    left: 10px;
+    right: 0;
+    font-weight: 700;
+    font-size: 2.0rem;
+
+}
+
+/*  Apply css properties to ui-widgets 
+    class and ui-labels class*/
+.ui-widgets .ui-labels {
+
+    left: 0;
+    bottom: -16px;
+    text-shadow: 0 0 4px grey;
+    color: black;
+    position: absolute;
+    width: 100%;
+    font-size: 16px;
+}
+.vl {
+    border-left: 1px solid  grey;
+    height: 150px;
+    margin-top: -30px;
+    margin-left: 100px;
+    
+}
+.fa_custom {
+    color: rgb(218, 154, 36);
+    size: 5px;
+    margin-top: 100px;
+    margin-left: -720;
+
+
+    }
+    .text-uppercase {
+        text-transform: lowercase !important;
+        background-color: #ffffff38;
+        border-radius: 20%;
+        padding: 05px;
+        margin-left: 10px;
+        font-size: 20px;
+        margin-bottom: 100px;
+
+        
+    }
+    .vl2 {
+        border-left: 1px solid  grey;
+        height: 150px;
+        margin-top: -30px;
+        margin-left: 100px;
+        
+    }
+    .contact{
+        font-size: 110px;
+    left: 0;
+    letter-spacing: 10px;
+    line-height: 0.7;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    text-transform: uppercase;
+    font-weight: 800;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+    color: rgba(255, 255, 255, 0.159);
+    margin-top: -260;
+    margin-left: 480;
+    position: fixed;
+    font-family: serif;
+    }
+    .aboutt{
+        margin-left: 600px;
+        margin-top: 80px;
+        font-size: 30;
+        font-family: serif;
+        color: antiquewhite;
+    
+    }
+    .firstname{
+        margin-top: -150px;
+        margin-left: 40px;
+        input[type=text] {
+            width: 25%;
+            padding: 10px 20px;
+            margin: 10px 0;
+            box-sizing: border-box;
+        }
+    }
+    .lastname{
+        margin-top: -55px;
+        margin-left: 300px;
+        input[type=text] {
+            width: 35%;
+            padding: 10px 20px;
+            margin: 10px 0;
+            box-sizing: border-box;
+        }
+    }
+    .subject{
+        margin-left: 550px;
+        margin-top: -60px;
+        input[type=text] {
+            width: 55%;
+            padding: 10px 20px;
+            margin: 10px 0;
+            box-sizing: border-box;
+        }
+    }
+    textarea {
+        width: 100%;
+        max-height: 160px;
+    }
+    input[type="text"], input[type="email"], input[type="url"], input[type="password"], input[type="search"], input[type="number"], input[type="tel"], input[type="range"], input[type="date"], input[type="month"], input[type="week"], input[type="time"], input[type="datetime"], input[type="datetime-local"], input[type="color"], textarea {
+        font-weight: 400;
+        width: 80%;
+        background: #353030;
+        color: white;
+        border: 1px solid transparent !important;
+        padding: 11px 26px;
+        border-radius: 30px;
+        outline: none !important;
+        transition: 0.3s;
+        border: none;
+        margin: 0;
+        margin-left: 30px;
+        font-family: sans-serif;
+        line-height: 25px;
+        margin-top: 10px;
+        
+    }
+    .button {
+        overflow: hidden;
+        display: inline-block;
+        line-height: 1.4;
+        border-radius: 35px;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        text-align: center;
+        cursor: pointer;
+        vertical-align: middle;
+        user-select: none;
+        transition: 250ms all ease-in-out;
+        text-transform: uppercase;
+        text-decoration: none !important;
+        position: relative;
+        z-index: 1;
+        padding: 16px 70px 16px 35px;
+        font-size: 15px;
+        font-weight: 600;
+        color: #fff;
+        background-color: transparent;
+        outline: none !important;
+        background-color:rgb(218, 154, 36) ;
+        margin-top: 30px;
+        margin-left: 30px;
+    }
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
